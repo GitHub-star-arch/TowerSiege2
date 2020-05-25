@@ -9,7 +9,7 @@ class Ball {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("blue");
-      rect(pos.x, pos.y, this.width, this.height);
+      fill("black");
+      ellipse(pos.x, pos.y, this.width, this.height);
     }
   };

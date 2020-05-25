@@ -17,7 +17,7 @@ class String{
             var pointA = this.slingShot.bodyA.position;
             var pointB = this.slingShot.pointB;
             strokeWeight(4);
-            stroke("yellow");
+            stroke(245,0,0);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
