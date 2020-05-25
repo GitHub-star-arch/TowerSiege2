@@ -31,8 +31,6 @@ function setup(){
     string = new String(ball.body,{x: 200,y: 400});
     g1= new Ground(650,200,200,10);
     g2= new Ground(650,400,200,10);
-    mouseReleased();
-    mouseDragged();
 }   
 
 function draw(){
